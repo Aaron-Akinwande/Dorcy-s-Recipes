@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 export default function () {
   return (
-    <div className=" bg-[url('/semo.png')] h-screen w-screen bg-cover">
+    <div className=" bg-[url('/semo.png')] h-screen  bg-cover">
       <div className="flex justify-between p-5  h-full">
         <div className="h-48 w-[300px]">
           <img src="/goldenpenny.png" alt="" className=" w-full" />
