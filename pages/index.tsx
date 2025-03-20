@@ -1,6 +1,9 @@
-import About from '@/components/About'
-import Brands from '@/components/Brands'
-import Header from '@/components/Header'
+import About from '@/components/landing/About'
+import Brands from '@/components/landing/Brands'
+import Footer from '@/components/landing/Footer'
+import Header from '@/components/landing/Header'
+import Location from '@/components/landing/Location'
+import Recipes from '@/components/landing/Recipes'
 import React from 'react'
 
 export default function index() {
@@ -10,12 +13,9 @@ export default function index() {
         <Header />
         <About/>
         <Brands/>
-      
-      <div className=' h-48 bg-black'></div>
-     
-      <div></div>
-      <div></div>
-      <div></div>
+        <Recipes/>
+        <Location/>
+        <Footer/>
     </div>
   )
 }

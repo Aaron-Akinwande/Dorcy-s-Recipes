@@ -2,7 +2,7 @@ import React from "react";
 
 export default function () {
   return (
-    <div className="  w-screen grid grid-cols-3 items-center gap-5 p-6 bg-orange-100 ">
+    <div className="   grid grid-cols-3 items-center gap-5 p-6 bg-orange-50 ">
       <div className="  rounded-md">
         <img src="/pasta.png" alt="" className=" col-span-1 h-full w-full" />
       </div>
@@ -16,8 +16,8 @@ export default function () {
           alias inventore.
         </div>
         <div
-          className="w-fit text-3xl bg-green-600 text-white flex justify-center
-           items-center cursor-pointer p-4 rounded-lg "
+          className="w-fit text-2xl bg-lime-600 font-mono text-white flex justify-center
+           items-center cursor-pointer p-3 rounded-lg "
         >
           <a href="#" className=" ">
             Read More
