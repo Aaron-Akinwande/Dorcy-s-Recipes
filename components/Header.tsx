@@ -9,8 +9,8 @@ export default function () {
   return (
     <div className=" bg-[url('/semo.png')] h-screen w-screen bg-cover">
       <div className="flex justify-between p-5  h-full">
-        <div className="h-48 w-48 ">
-          <img src="/goldenpenny.png" alt="" />
+        <div className="h-48 w-[300px]">
+          <img src="/goldenpenny.png" alt="" className=" w-full" />
         </div>
 
         <div className="flex flex-col justify-between items-center ">
@@ -20,7 +20,7 @@ export default function () {
             items-center"
           >
             <div className=" font-serif text-xl font-semibold">Menu</div>
-            <div className=" text-lg text-red-600 ">
+            <div className=" text-xl text-red-600 ">
               <GiHamburgerMenu />
             </div>
           </div>
