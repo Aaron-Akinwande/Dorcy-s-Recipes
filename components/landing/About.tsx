@@ -8,8 +8,8 @@ export default function () {
       </div>
 
       <div className=" col-span-2 flex flex-col gap-4 ">
-        <div className=" text-3xl font-extrabold fo">ABOUT US</div>
-        <div className=" text-2xl font-medium text-black ">
+        <div className=" text-3xl font-extrabold text-amber-900">ABOUT US</div>
+        <div className=" text-2xl font-medium text-amber-900 ">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime omnis
           reiciendis modi nulla consectetur magnam hic optio impedit explicabo
           recusandae quam eligendi, vel veritatis, labore et harum voluptatem,
