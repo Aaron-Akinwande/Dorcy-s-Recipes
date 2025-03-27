@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div className=" p-5 px-8 bg-black">
-      <div className=" grid grid-cols-4 gap-2 text-xl font-bold  text-gray-500">
+      <div className=" grid grid-cols-4 gap-2 text-xl font-bold text-gray-500">
         <div className=" flex justify-center">Disclaimer</div>
         <div className=" flex justify-center">Reach Us</div>
         <div className=" flex justify-center">Email</div>

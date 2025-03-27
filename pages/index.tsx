@@ -8,7 +8,7 @@ import React from 'react'
 
 export default function index() {
   return (
-    <div className=' flex flex-col'>
+    <div className='bg-white flex flex-col'>
       
         <Header />
         <About/>
