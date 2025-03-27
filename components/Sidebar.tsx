@@ -29,9 +29,9 @@ export default function Sidebar({ isOpen, onClose }: any) {
         <div className=" flex flex-col gap-2">
          <div className="hover:text-black flex justify-between" onClick={() => (setExpand(!expand))}>OUR BRANDS <CiCircleChevDown /></div> 
           <div className={` ${ expand ? "flex" : " hidden"} text-base font-medium px-5  flex-col gap-3`}>
-            <div className="hover:text-black"><a href="/brands">Pasta</a></div>
-            <div className="hover:text-black"><a href="/brands">Noodles</a></div>
-            <div className="hover:text-black"><a href="/brands">Ball Foods</a></div>
+            <div className="hover:text-black"><a href="/brands/pasta">Pasta</a></div>
+            <div className="hover:text-black"><a href="/brands/noodles">Noodles</a></div>
+            <div className="hover:text-black"><a href="/brands/ball_foods">Ball Foods</a></div>
             <div className="hover:text-black"><a href="/brands">Oils and Spreads</a></div>
             <div className="hover:text-black"><a href="/brands">Flour</a></div>
             <div className="hover:text-black"><a href="/brands">Sugar</a></div>

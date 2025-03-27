@@ -11,7 +11,7 @@ export default function about_us() {
   return (
     <div className=" bg-white">
       {/* <div className=" "> */}
-        <TopBar />
+      <TopBar />
       {/* </div> */}
 
       <div className=" pt-40 flex justify-center items-center bg-[url('/family.png')] bg-cover">
@@ -32,17 +32,39 @@ export default function about_us() {
                 <div className=" text-amber-900 text-xl w-1/12">
                   A rich history of quality and flavour
                 </div>
-                <div className="w-11/12 text-lg font-sans">{heritage} Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores similique necessitatibus ducimus dignissimos dicta, deleniti, adipisci temporibus dolore officiis odio fuga debitis officia, repellat magnam nisi iure veniam nemo.</div>
+                <div className="w-11/12 text-lg font-sans">
+                  {heritage} Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Iste dolores similique necessitatibus ducimus
+                  dignissimos dicta, deleniti, adipisci temporibus dolore
+                  officiis odio fuga debitis officia, repellat magnam nisi iure
+                  veniam nemo.
+                </div>
               </div>
               <div className=" flex gap-4">
                 <div className=" w-1/12"></div>
-                <div className=" h-72 w-11/12 border-2"></div>
+                <div className=" h-72 w-11/12 border-2">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/oXa-wG-_NQ4?si=suZSB2MncmSPuNtn"
+                    title="YouTube video player"
+                    // frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    // referrerpolicy="strict-origin-when-cross-origin"
+                    // allowfullscreen
+                  ></iframe>
+                </div>
               </div>
               <div className=" flex gap-4">
                 <div className=" text-amber-900 text-xl w-1/12">
                   History of Flour Mills of Nigeria Plc
                 </div>
-                <div className="w-11/12 text-lg font-sans">{heritage} Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ipsum provident ipsa id rerum porro ab! Harum, itaque optio error ipsa facilis aspernatur eveniet expedita laboriosam neque deleniti nulla dolores.</div>
+                <div className="w-11/12 text-lg font-sans">
+                  {heritage} Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Ipsam ipsum provident ipsa id rerum porro ab! Harum,
+                  itaque optio error ipsa facilis aspernatur eveniet expedita
+                  laboriosam neque deleniti nulla dolores.
+                </div>
               </div>
               <div className=" flex gap-4 ">
                 <div className=" w-1/12"></div>
